@@ -6,7 +6,7 @@ const MachineForm = ({ onAdd }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    onAdd({ name, stock, email });
+    onAdd({ name, stock });
     setName('');
     setStock('');
   };
