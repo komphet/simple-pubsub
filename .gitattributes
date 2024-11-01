@@ -1,0 +1,5 @@
+# Set the default behavior for text files to convert LF to CRLF on checkout
+* text=auto
+
+# Specifically for JavaScript files, keep LF endings
+*.js text eol=lf
